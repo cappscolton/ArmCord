@@ -310,7 +310,7 @@ async function updateModBundle() {
             }
             var name: string = await getConfig("mods");
             const clientMods = {
-                vencord: "https://github.com/Vendicated/Vencord/releases/download/devbuild/browser.js",
+                vencord: "c",
                 cordwood: "https://raw.githubusercontent.com/Cordwood/builds/master/index.js",
                 shelter: "https://raw.githubusercontent.com/uwu/shelter-builds/main/shelter.js"
             };
